@@ -78,7 +78,7 @@ module.exports = {
     // production: true    // Treats this network as if it was a public net. (default: false)
     // }
     rinkeby: {
-      provider: () => new HDWalletProvider("43554ee0c5a5f255d25b7da6643e0c3f0b4c250a3bf38cebf30b68556098df73", clientURL),
+      provider: () => new HDWalletProvider("", clientURL),
       network_id: 4,       // Rinkeby's id
       gas: 3000000,
       confirmations: 2,    // # of confs to wait between deployments. (default: 0)
